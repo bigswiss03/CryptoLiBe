@@ -2,7 +2,7 @@ import cv2
 import pafy
 import numpy as np
 import winsound # Demo: segnale sonoro
-url = "https://www.youtube.com/watch?v=a4Z0iac_6Lk"
+url = "https://www.youtube.com/watch?v=w35Aahi5zEY"
 source = pafy.new(url).getbest()
 capture = cv2.VideoCapture(source.url)
 color = "red"
@@ -24,7 +24,7 @@ while (True):
     if cv2.waitKey(1) & 0xFF == ord('q'):   # Quitta se si preme il tasto "q" (spiegazione: https://stackoverflow.com/a/57691103)
         break
 
-    current_frame_cropped = current_frame[50:500, 475:505,:] # (spiegazione: https://stackoverflow.com/a/58177717/15553356)
+    current_frame_cropped = current_frame[50:400, 475:505,:] # (spiegazione: https://stackoverflow.com/a/58177717/15553356)
 
     # Converto in HSV
     hsv = cv2.cvtColor(current_frame_cropped, cv2.COLOR_BGR2HSV)
