@@ -1,5 +1,5 @@
 # CryptoLiBe
-Il progetto `CryptoLiBe`, elaborato dalla classe 3ABCDE FaM del Liceo di Bellinzona (AS 2020-2021), prevede la creazione di un Bot che acquisti e venda in modo automatico criptovalute.
+Il progetto `CryptoLiBe`, elaborato dalla classe 4ABCDE (fu 3ABCDE) FaM del Liceo di Bellinzona (AS 2020-2021; 2021-2022), prevede la creazione di un Bot che acquisti e venda in modo automatico criptovalute.
 ## Installazione
 Perché il Bot funzioni correttamente è necessario soddisfare alcuni requisiti:
 
